@@ -9,8 +9,9 @@
   gap: 40px;
   flex-wrap: wrap;
 }
-h2 {
+.population > h2 {
   font-size: 30px;
+  text-align: center;
 }
 .population span {
   color: blue;

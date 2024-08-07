@@ -13,9 +13,11 @@
   color: brown;
   font-weight: bolder;
   text-transform: capitalize;
+  text-align: center;
 }
 .guesscountry > h2 {
   font-size: 30px;
+  text-align: center;
 }
 .guesscountry span {
   color: blue;
@@ -52,5 +54,10 @@
   .img_wrp img {
     width: 150px;
     height: 100px;
+  }
+}
+@media (max-width: 926px) {
+  .guesscountry {
+    top: 160px;
   }
 }

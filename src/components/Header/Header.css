@@ -2,6 +2,7 @@ header {
   display: flex;
   background-color: rgb(184, 105, 105);
   width: 100%;
+  padding: 10px;
   height: 10svh;
   justify-content: space-around;
 }
@@ -29,4 +30,9 @@ li:hover {
   color: black;
   font-weight: bolder;
   text-decoration: underline;
+}
+@media (max-width: 926px) {
+  header {
+    height: 20svh;
+  }
 }

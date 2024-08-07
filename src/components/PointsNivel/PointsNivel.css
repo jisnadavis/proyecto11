@@ -5,14 +5,19 @@
   right: 0px;
   height: 90px;
   width: 200px;
-  top: 0px;
+  top: 15px;
+  justify-content: center;
+  border: 2px solid black;
+  align-items: center;
 }
-.nivel .score {
+.points h2 {
+  color: brown;
   font-size: 20px;
 }
+
 @media (max-width: 926px) {
   .points {
     position: absolute;
-    top: -120px;
+    top: -100px;
   }
 }
