@@ -9,7 +9,7 @@ export const Header = () => {
         <nav>
           <ul>
             <li>
-              <NavLink to='/Guesscountry' activeclassname='active'>
+              <NavLink to='/' activeclassname='active'>
                 GuessCountry
               </NavLink>
             </li>
