@@ -1,0 +1,39 @@
+.population {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+h2 {
+  font-size: 30px;
+}
+.population span {
+  color: blue;
+  font-weight: 1200px;
+  font-style: italic;
+  font-size: 40px;
+}
+input {
+  width: 200px;
+  height: 20px;
+  border-radius: 30px;
+  text-align: center;
+  border: 2px solid saddlebrown;
+}
+button {
+  width: 200px;
+  font-size: 20px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: saddlebrown;
+}
+@media (max-width: 926px) {
+  .population {
+    top: 120px;
+  }
+}

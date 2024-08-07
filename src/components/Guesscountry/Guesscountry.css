@@ -1,0 +1,56 @@
+.guesscountry {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.guesscountry h1 {
+  font-size: 40px;
+  color: brown;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.guesscountry > h2 {
+  font-size: 30px;
+}
+.guesscountry span {
+  color: blue;
+  font-weight: 1200px;
+  font-style: italic;
+  font-size: 30px;
+}
+.countryflag {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.img_wrp {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+.img_wrp img {
+  width: 250px;
+  border-radius: 30px;
+  border: 2px black solid;
+  transition: all 0.5s;
+  height: 200px;
+}
+.img_wrp img:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+@media (max-width: 926px) {
+  .guesscountry {
+    top: 120px;
+  }
+  .img_wrp img {
+    width: 150px;
+    height: 100px;
+  }
+}

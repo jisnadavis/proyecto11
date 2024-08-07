@@ -1,0 +1,9 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --gg-gap-small: 10px;
+  --gg-gap-medium: 20px;
+  --gg-gap-large: 30px;
+}

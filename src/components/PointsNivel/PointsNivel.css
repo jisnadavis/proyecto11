@@ -1,0 +1,18 @@
+.points {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+  height: 90px;
+  width: 200px;
+  top: 0px;
+}
+.nivel .score {
+  font-size: 20px;
+}
+@media (max-width: 926px) {
+  .points {
+    position: absolute;
+    top: -120px;
+  }
+}
