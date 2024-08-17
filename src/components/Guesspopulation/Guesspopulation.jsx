@@ -19,9 +19,10 @@ export const Guesspopulation = () => {
   useEffect(() => {
     const fetchCountries = async () => {
       const res = await fetch(
-        'https://restcountries.com/v3.1/all?fields=name,flags,population'
+        'https://restcountries.com/v3.1/all?fields=name,flags,population,capital'
       )
       const result = await res.json()
+      console.log(result)
       randomCountry(result)
       setCountries(result)
     }

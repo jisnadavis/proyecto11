@@ -6,6 +6,9 @@ header {
   height: 10svh;
   justify-content: space-around;
 }
+.menudesplagble {
+  display: none;
+}
 nav {
   display: flex;
   width: 100%;
@@ -33,6 +36,33 @@ li:hover {
 }
 @media (max-width: 926px) {
   header {
-    height: 20svh;
+    height: 25svh;
+  }
+}
+@media (max-width: 500px) {
+  .menudesplagble {
+    display: block;
+    width: 150px;
+    height: 100px;
+    background-color: rgb(184, 105, 105);
+  }
+  .nodisplay {
+    display: none;
+  }
+  .menuvertical {
+    display: flex;
+    top: 0px;
+    flex-direction: column;
+    gap: var(--ppk-gap-m);
+    height: 100svh;
+    width: 250px;
+    justify-content: space-around;
+    z-index: 2;
+    transition: ease-in;
+    overflow: hidden;
+    background-color: rgb(184, 105, 105);
+    position: absolute;
+
+    left: 0px;
   }
 }
